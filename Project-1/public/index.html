@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type = "module" src = "./app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="heading"><h1>Finance Logger</h1>
+        <div class="details">
+        <ul class=".info">
+            
+        </ul></div>
+    </div>
+        <div class="content">
+            
+            <div class="elements">
+                <span>Type: </span>
+                <select name="type" id="type">
+                    <option value="Invoice">Invoice</option>
+                    <option value="Payment">Payment</option>
+                </select>
+            </div>
+            <div class="elements">
+                <span>To / From: </span>
+                <input type="text" id="to" value = "">
+            </div>
+            <div class="elements">
+                <span>Details: </span>
+                <input type="text" id="details" value = "">
+            </div>
+            <div class="elements">
+                <span>Amount (£): </span>
+                <input type="number" id="amount">
+            </div>
+            <div class="elements">
+                <button id = "btn">Add</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
